@@ -1,0 +1,50 @@
+*{
+    color: blue;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.billiontree{
+    max-width: 80%;
+    height: 80vh;
+    border: 3px solid black;
+    padding: 1rem;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 1rem;
+    background-color: #fff;
+    box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.7);;
+}
+.billiontree h1{
+    font-size: 7rem;
+    color:#000000;
+}
+.billiontree p{
+    font-size: 2rem;
+    color:#000000;
+}
+.samishop{
+    max-width: 70%;
+    height: 80vh;
+    border: 3px solid black;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.7);;
+}
+.samishop h1{
+    font-size: 7rem;
+    color:#000000;
+}
+.samishop p{
+    font-size: 2rem;
+    color:#000000;
+}
+.fbicon{
+    margin-top: 5rem;
+    max-width: 15rem;
+    height: 10rem;
+}
